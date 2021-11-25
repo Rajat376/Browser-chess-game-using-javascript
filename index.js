@@ -6,6 +6,9 @@ var piece;
 count=0;
 wc=0;
 bc=0;
+wk=false;
+Wrl=false;
+wrr=false;
 index=0;
 
 function allowDrop(ev) {
