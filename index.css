@@ -1,0 +1,41 @@
+.board
+{display: grid;
+    background-color:red;
+    grid-template-rows: repeat(8,1fr);
+    grid-template-columns:repeat(10,1fr) ;
+    width:1000px;
+    height:800px;
+    margin-left:100px;
+    cursor:grab;
+}
+.black
+{width:100px;
+    height:100px;
+    background-color:yellow;
+    text-align: center;
+    cursor:grab;
+    
+}
+.blue
+{width:100px;
+    height:100px;
+    background-color:white;
+    text-align: center;
+    cursor:grab;
+}
+i{font-size:60px;
+margin-top:20px;
+border-color:blue;
+border-width: 10px;
+cursor:grab;}
+.side
+{padding-left: 10px;
+    
+    grid-row: 1/span 10;
+    background-color:green;
+}
+.side1
+{
+grid-column-start:10;
+grid-column-end:11;
+}
